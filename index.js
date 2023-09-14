@@ -161,7 +161,7 @@ if (bichos === 0) {
 */
 //2 - 
 // A
-let arrayOriginal = [20, 35, 60, 80, 110, 140, 45, 70, 95]
+let arrayOriginal = [20, 35, 60, 80, 110, 140, 45, 70, 95, 25]
 for (let valor of arrayOriginal){
     console.log(valor);
 }
@@ -185,7 +185,7 @@ console.log("numeros pares", numerosPares);
 // D
 const novoArray = [];
 
-for(let i = 0; i < arrayOriginal.length; i++) {
+for(let i = 0;     i < arrayOriginal.length;      i++) {
     const numeroo = arrayOriginal[i]
     const mensagem = `o elemento do index ${i} é : ${numeroo}`;
     novoArray.push(mensagem)
@@ -194,7 +194,7 @@ console.log(novoArray);
 
 // E
 
-let maior = arrayOriginal[8]
+let maior = arrayOriginal[9]
 let menor = arrayOriginal[0]
 
 for(let i = 1;      i < arrayOriginal.length; i++){
